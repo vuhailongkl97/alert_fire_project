@@ -10,11 +10,16 @@
 #define SPEAKER D6
 #define LED D3
 
+/*lamnguyenk52a31@gmail.com
+Bkav@2019
+*/
+
 DHT dht(DHTPIN,DHTTYPE);
 
 String apiKey = "UTEVDG8PBX5I6M6F";
-const char* ssid = "LamNTe";
-const char* password = "thanhlams";
+
+const char* ssid = "AndroidAP";
+const char* password = "110119961";
 
 const char* server = "api.thingspeak.com";
  
